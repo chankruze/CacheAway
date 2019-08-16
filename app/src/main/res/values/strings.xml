@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CacheAway</string>
+
+    <string name="quick_clean">This will clean all cache directories and files in just one click.\n\nBelow is advance clean option to delete cache of your choice.</string>
+
+    <string name="btn_advance_clean">Advance Clean</string>
+    <string name="box_01">Dalvik/ART Cache</string>
+    <string name="box_02">Cache Partition</string>
+    <string name="box_03">Application Cache</string>
+    <string name="box_04">Temporary files</string>
+    <string name="box_05">Logs Cache</string>
+    <string name="box_06">Logger Cache</string>
+    <string name="box_07">Dropbox Cache</string>
+    <string name="box_08">Tombstone Cache</string>
+    <string name="box_09">Usage Stats</string>
+    <string name="box_10">ANR Cache</string>
+    <string name="box_11">LOST.DIR Cache</string>
+    <string name="box_12">Thumbnails Cache</string>
+</resources>
