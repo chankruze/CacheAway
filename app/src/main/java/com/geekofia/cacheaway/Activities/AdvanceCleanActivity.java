@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
 import android.widget.GridLayout;
+import android.widget.ImageView;
 
 import com.geekofia.cacheaway.R;
 import com.geekofia.cacheaway.Utils.Clean;
@@ -20,7 +21,8 @@ public class AdvanceCleanActivity extends AppCompatActivity implements View.OnCl
             mTempFilesCard, mLogCard, mLoggerCard,
             mDropboxCard, mTombstoneCard, mUsageStatsCard,
             mAnrCard, mLostDir, mThumbnailsCard;
-    int mDalvikCacheCardId;
+
+    private ImageView mClose, mInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,11 @@ public class AdvanceCleanActivity extends AppCompatActivity implements View.OnCl
         setContentView(R.layout.activity_advance_clean);
 
         mGridLayout = findViewById(R.id.gridLayout);
+
+        mClose = findViewById(R.id.AppTitleBarClose);
+        mClose.setOnClickListener(this);
+        mInfo = findViewById(R.id.AppTitleBarInfo);
+        mInfo.setOnClickListener(this);
 
         initCards();
         setClickListeners();
@@ -62,9 +69,7 @@ public class AdvanceCleanActivity extends AppCompatActivity implements View.OnCl
                     clean.CleanCache();
                 }
             });
-
         }
-
     }
 
     public boolean isExternalStorageWritable() {
@@ -77,5 +82,14 @@ public class AdvanceCleanActivity extends AppCompatActivity implements View.OnCl
 
     @Override
     public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.AppTitleBarClose:
+                finish();
+                break;
+            case R.id.AppTitleBarInfo:
+                BottomSheetDialog bottomSheetDialog = new BottomSheetDialog();
+                bottomSheetDialog.show(getSupportFragmentManager(), "App Info");
+                break;
+        }
     }
 }

@@ -16,4 +16,6 @@
     <string name="box_10">ANR Cache</string>
     <string name="box_11">LOST.DIR Cache</string>
     <string name="box_12">Thumbnails Cache</string>
+
+    <string name="developer">Developed with ❤ by chankruze</string>
 </resources>

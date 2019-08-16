@@ -10,6 +10,11 @@
         <item name="android:fontFamily">@font/google_sans</item>
     </style>
 
+    <style name="RippleView">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
     <style name="AppTileBarLogo">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -24,14 +29,12 @@
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
 
-    <style name="CardAdvanceClean">
+    <style name="CardAdvanceClean" parent="RippleView">
         <item name="android:layout_margin">8dp</item>
         <item name="android:layout_height">150dp</item>
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_rowWeight">1</item>
         <item name="android:layout_columnWeight">1</item>
-        <item name="android:foreground">?android:attr/selectableItemBackground</item>
-        <item name="android:clickable">true</item>
 
         <item name="cardBackgroundColor">@color/colorPrimary</item>
         <item name="cardCornerRadius">8dp</item>
@@ -58,5 +61,17 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="SocialButtons" parent="RippleView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="ToolBarButtons" parent="RippleView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
     </style>
 </resources>
