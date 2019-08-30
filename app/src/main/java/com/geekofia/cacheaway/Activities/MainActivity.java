@@ -35,10 +35,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mAdvanceClean.setOnClickListener(this);
         mSettings.setOnClickListener(this);
 
-        CACHE_ALL = CACHE_DALVIK + CACHE + CACHE_APP_INTERNAL
-                + CACHE_LOGS + CACHE_LOGGER + CACHE_USAGE_STATS
-                + CACHE_TEMP_FILES + CACHE_DROP_BOX + CACHE_ANR
-                + CACHE_TOMBSTONE + CACHE_LOST_DIR + CACHE_THUMBNAILS;
+        CACHE_ALL = CACHE_DALVIK + " | " + CACHE + " | " + CACHE_APP
+                + " | " + CACHE_LOGS + " | " + CACHE_LOGGER + " | " + CACHE_USAGE_STATS
+                + " | " + CACHE_TEMP_FILES + " | " + CACHE_DROP_BOX + " | " + CACHE_ANR
+                + " | " + CACHE_TOMBSTONE + " | " + CACHE_LOST_DIR + " | " + CACHE_THUMBNAILS;
 
         showRateApp();
     }
