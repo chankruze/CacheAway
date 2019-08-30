@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/caches_header">
+
+        <SwitchPreferenceCompat
+            app:key="customize_clean_all"
+            app:title="@string/clean_all_title"
+            app:summaryOn="@string/clean_all_summary_on"
+            app:summaryOff="@string/clean_all_summary_off"/>
+
+        <MultiSelectListPreference
+            app:dependency="customize_clean_all"
+            app:defaultValue="@array/cache_entries"
+            app:entries="@array/cache_entries"
+            app:entryValues="@array/cache_entry_values"
+            app:key="@string/select_caches_title"
+            app:title="@string/select_caches_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

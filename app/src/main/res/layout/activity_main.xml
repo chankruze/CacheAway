@@ -8,28 +8,34 @@
     android:orientation="vertical"
     tools:context=".Activities.MainActivity">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
         <TextView
             style="@style/AppTileBarLogo"
-            android:layout_gravity="center" />
+            android:layout_centerInParent="true" />
 
-        <Button
-            android:id="@+id/buttonSimpleClean"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="60dp"
-            android:layout_marginBottom="60dp"
-            android:background="@drawable/bg_simple_clean"
-            android:text="clean"
-            android:textColor="@color/textColor"
-            android:textSize="24dp" />
+        <ImageView
+            android:id="@+id/SettingsButton"
+            style="@style/ToolBarButtons"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_settings" />
 
-    </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonSimpleClean"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/bg_simple_clean"
+        android:text="clean"
+        android:textColor="@color/textColor"
+        android:textSize="24dp" />
 
     <TextView
         android:layout_width="match_parent"

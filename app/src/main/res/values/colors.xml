@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#000000</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#00C853</color>
 
     <color name="textColor">#FFF</color>
     <color name="textColorHeading">#5E5F73</color>
@@ -10,6 +10,8 @@
 
     <color name="colorBgActivity">#0B0C1B</color>
     <color name="cardBackgroundColor">#000</color>
+
+    <color name="strokeBgButton">#2DE5D1</color>
 
     <color name="ic_launcher_background">#16BEFF</color>
 </resources>

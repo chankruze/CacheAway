@@ -1,0 +1,33 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="cache_entries">
+        <item>Dalvik/ART Cache</item>
+        <item>Cache Partition</item>
+        <item>Application Cache</item>
+        <item>Temporary files</item>
+        <item>Logs Cache</item>
+        <item>Logger Cache</item>
+        <item>Dropbox Cache</item>
+        <item>Tombstone Cache</item>
+        <item>Usage Stats</item>
+        <item>ANR Cache</item>
+        <item>LOST.DIR Cache</item>
+        <item>Thumbnails Cache</item>
+    </string-array>
+
+    <string-array name="cache_entry_values">
+        <item>Dalvik/ART Cache</item>
+        <item>Cache Partition</item>
+        <item>Application Cache</item>
+        <item>Temporary files</item>
+        <item>Logs Cache</item>
+        <item>Logger Cache</item>
+        <item>Dropbox Cache</item>
+        <item>Tombstone Cache</item>
+        <item>Usage Stats</item>
+        <item>ANR Cache</item>
+        <item>LOST.DIR Cache</item>
+        <item>Thumbnails Cache</item>
+    </string-array>
+
+</resources>

@@ -74,4 +74,9 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
+
+    <style name="SettingsTheme">
+        <item name="android:textColorPrimary">@color/primary_text_color_selector</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color_selector</item>
+    </style>
 </resources>

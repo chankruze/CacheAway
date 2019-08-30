@@ -85,6 +85,7 @@ public class AdvanceCleanActivity extends AppCompatActivity implements View.OnCl
         switch (view.getId()){
             case R.id.AppTitleBarClose:
                 finish();
+                overridePendingTransition(0, android.R.anim.fade_out);
                 break;
             case R.id.AppTitleBarInfo:
                 BottomSheetDialog bottomSheetDialog = new BottomSheetDialog();

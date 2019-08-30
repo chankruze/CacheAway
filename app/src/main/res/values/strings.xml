@@ -18,4 +18,17 @@
     <string name="box_12">Thumbnails Cache</string>
 
     <string name="developer">Developed with ❤ by chankruze</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="caches_header">Clean all button</string>
+
+    <!-- Clean All Preferences -->
+    <string name="clean_all_title">Customize clean all option</string>
+    <string name="clean_all_summary_on">Cleans only your selected caches</string>
+    <string name="clean_all_summary_off">Cleans all caches set by default</string>
+
+    <!-- Select Caches Preferences -->
+    <string name="select_caches_title">Select caches to clean</string>
+
 </resources>

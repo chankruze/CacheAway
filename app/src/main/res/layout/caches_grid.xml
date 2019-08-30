@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2">
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_01" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_02" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_03" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_04" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_05" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_06" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_07" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_08"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_09" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_10" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_11" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView style="@style/CardAdvanceClean">
+
+        <LinearLayout style="@style/CardAdvanceCleanLinearLayout">
+
+            <ImageView
+                style="@style/CardAdvanceCleanImageView"
+                android:src="@drawable/ic_trash" />
+
+            <TextView
+                style="@style/CardAdvanceCleanTextView"
+                android:text="@string/box_12" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</GridLayout>

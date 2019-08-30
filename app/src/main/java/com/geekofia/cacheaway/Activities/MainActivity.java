@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.geekofia.cacheaway.R;
 import com.geekofia.cacheaway.Utils.Clean;
@@ -17,6 +18,7 @@ import static com.geekofia.cacheaway.Utils.CleanCommands.*;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button mSimpleClean, mAdvanceClean;
+    ImageView mSettings;
     private String CACHE_ALL;
 
     @Override
@@ -26,9 +28,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mSimpleClean = findViewById(R.id.buttonSimpleClean);
         mAdvanceClean = findViewById(R.id.buttonAdvanceClean);
+        mSettings = findViewById(R.id.SettingsButton);
+
 
         mSimpleClean.setOnClickListener(this);
         mAdvanceClean.setOnClickListener(this);
+        mSettings.setOnClickListener(this);
 
         CACHE_ALL = CACHE_DALVIK + CACHE + CACHE_APP_INTERNAL
                 + CACHE_LOGS + CACHE_LOGGER + CACHE_USAGE_STATS
@@ -59,6 +64,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.buttonSimpleClean:
                 Clean clean = new Clean(this, CACHE_ALL, "All cache cleaned");
                 clean.CleanCache();
+                break;
+            case R.id.SettingsButton:
+                Intent settingsIntent = new Intent(this, SettingsActivity.class);
+                startActivity(settingsIntent);
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 break;
         }
     }
