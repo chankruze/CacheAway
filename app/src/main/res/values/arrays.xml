@@ -3,7 +3,7 @@
     <string-array name="cache_entries">
         <item>Dalvik/ART Cache</item>
         <item>Cache Partition</item>
-        <item>Application Cache</item>
+        <item>Applications Cache</item>
         <item>Temporary files</item>
         <item>Logs Cache</item>
         <item>Logger Cache</item>
@@ -16,18 +16,18 @@
     </string-array>
 
     <string-array name="cache_entry_values">
-        <item>Dalvik/ART Cache</item>
-        <item>Cache Partition</item>
-        <item>Application Cache</item>
-        <item>Temporary files</item>
-        <item>Logs Cache</item>
-        <item>Logger Cache</item>
-        <item>Dropbox Cache</item>
-        <item>Tombstone Cache</item>
-        <item>Usage Stats</item>
-        <item>ANR Cache</item>
-        <item>LOST.DIR Cache</item>
-        <item>Thumbnails Cache</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
     </string-array>
 
 </resources>

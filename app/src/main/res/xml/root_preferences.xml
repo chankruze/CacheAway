@@ -3,18 +3,27 @@
     <PreferenceCategory app:title="@string/caches_header">
 
         <SwitchPreferenceCompat
-            app:key="customize_clean_all"
-            app:title="@string/clean_all_title"
-            app:summaryOn="@string/clean_all_summary_on"
-            app:summaryOff="@string/clean_all_summary_off"/>
+            app:key="@string/customize_clean_all_key"
+            app:summaryOff="@string/customize_clean_all_summary_off"
+            app:summaryOn="@string/customize_clean_all_summary_on"
+            app:title="@string/customize_clean_all_title" />
 
         <MultiSelectListPreference
-            app:dependency="customize_clean_all"
-            app:defaultValue="@array/cache_entries"
+            app:dependency="@string/customize_clean_all_key"
             app:entries="@array/cache_entries"
             app:entryValues="@array/cache_entry_values"
-            app:key="@string/select_caches_title"
+            app:key="@string/select_caches_key"
             app:title="@string/select_caches_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Notification">
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:key="@string/notification_pref_key"
+            app:summaryOff="@string/notification_pref_summary_off"
+            app:summaryOn="@string/notification_pref_summary_on"
+            app:title="@string/notification_pref_title" />
 
     </PreferenceCategory>
 

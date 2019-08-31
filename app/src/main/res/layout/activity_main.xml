@@ -33,15 +33,15 @@
         android:layout_marginTop="60dp"
         android:layout_marginBottom="60dp"
         android:background="@drawable/bg_simple_clean"
-        android:text="clean"
+        android:text="@string/btn_quick_clean"
         android:textColor="@color/textColor"
         android:textSize="24dp" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:text="@string/quick_clean"
         android:textAlignment="textStart"
         android:textColor="@color/textColor" />
 

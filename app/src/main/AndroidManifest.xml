@@ -11,7 +11,11 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Activities.SettingsActivity"
-            android:label="@string/title_activity_settings" />
+            android:label="@string/title_activity_settings" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.MainActivity"/>
+        </activity>
         <activity android:name=".Activities.AdvanceCleanActivity" />
         <activity android:name=".Activities.MainActivity">
             <intent-filter>

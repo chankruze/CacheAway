@@ -5,15 +5,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceScreen;
 
 import com.geekofia.cacheaway.R;
-
-import java.util.HashSet;
-import java.util.Set;
 
 public class SettingsActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -38,7 +34,7 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
+        switch (view.getId()) {
             case R.id.settingsTitleBarClose:
                 finish();
                 overridePendingTransition(0, android.R.anim.fade_out);
@@ -46,8 +42,8 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         }
     }
 
+    public static class SettingsFragment extends PreferenceFragmentCompat{
 
-    public static class SettingsFragment extends PreferenceFragmentCompat {
         @Override
         public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
             setPreferencesFromResource(R.xml.root_preferences, rootKey);
