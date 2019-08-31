@@ -51,4 +51,14 @@
     <string name="notificationTitle">Configure Clan All Button</string>
     <string name="notificationContent">You can now select caches of your choice to clean when CLEAN ALL is pressed. Enable customize clean all option and select caches to clean in settings.\n\nNote: Leaving empty list will clean all caches</string>
     <string name="configure">Configure now</string>
+
+    <!-- Image Button Description -->
+    <string name="btn_desc_settings">Open settings</string>
+    <string name="btn_desc_close">Close</string>
+    <string name="btn_desc_info">Info</string>
+    <string name="btn_desc_github">GitHub Url</string>
+    <string name="btn_desc_web">Website</string>
+    <string name="btn_desc_mail">Contact</string>
+    <string name="btn_desc_share">Share App</string>
+
 </resources>

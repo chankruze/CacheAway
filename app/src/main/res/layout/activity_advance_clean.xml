@@ -9,22 +9,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
-            style="@style/AppTileBarLogo"
-            android:layout_centerInParent="true" />
-
-        <ImageView
+        <ImageButton
             android:id="@+id/AppTitleBarInfo"
             style="@style/ToolBarButtons"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="16dp"
+            android:contentDescription="@string/btn_desc_info"
             android:src="@drawable/ic_info" />
 
-        <ImageView
-            style="@style/ToolBarButtons"
+        <ImageButton
             android:id="@+id/AppTitleBarClose"
+            style="@style/ToolBarButtons"
             android:layout_marginStart="16dp"
+            android:contentDescription="@string/btn_desc_info"
             android:src="@drawable/ic_close" />
+
+        <TextView
+            style="@style/AppTileBarLogo"
+            android:layout_centerInParent="true" />
 
     </RelativeLayout>
 

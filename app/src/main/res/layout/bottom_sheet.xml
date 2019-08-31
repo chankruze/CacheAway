@@ -57,23 +57,27 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/socialWeb"
+                android:contentDescription="@string/btn_desc_web"
                 style="@style/SocialButtons"
                 android:src="@drawable/ic_globe" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/socialGithub"
+                android:contentDescription="@string/btn_desc_github"
                 style="@style/SocialButtons"
                 android:src="@drawable/ic_github" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/socialMail"
+                android:contentDescription="@string/btn_desc_mail"
                 style="@style/SocialButtons"
                 android:src="@drawable/ic_email" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/socialShare"
+                android:contentDescription="@string/btn_desc_share"
                 style="@style/SocialButtons"
                 android:src="@drawable/ic_share" />
 

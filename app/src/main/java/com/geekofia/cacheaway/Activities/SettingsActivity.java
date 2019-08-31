@@ -3,6 +3,7 @@ package com.geekofia.cacheaway.Activities;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +14,7 @@ import com.geekofia.cacheaway.R;
 
 public class SettingsActivity extends AppCompatActivity implements View.OnClickListener {
 
-    ImageView mClose;
+    ImageButton mClose;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

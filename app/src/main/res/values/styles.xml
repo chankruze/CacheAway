@@ -6,13 +6,14 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/primaryRipple</item>
 
         <item name="android:fontFamily">@font/google_sans</item>
     </style>
 
     <style name="RippleView">
-        <item name="android:foreground">?android:attr/selectableItemBackground</item>
         <item name="android:clickable">true</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
     </style>
 
     <style name="AppTileBarLogo">
@@ -70,8 +71,8 @@
     </style>
 
     <style name="ToolBarButtons" parent="RippleView">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_width">24dp</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
 

@@ -16,8 +16,9 @@
             style="@style/AppTileBarLogo"
             android:layout_centerInParent="true" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/SettingsButton"
+            android:contentDescription="@string/btn_desc_settings"
             style="@style/ToolBarButtons"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="16dp"

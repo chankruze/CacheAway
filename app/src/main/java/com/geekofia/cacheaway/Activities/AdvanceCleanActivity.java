@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
 import android.widget.GridLayout;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 
 import com.geekofia.cacheaway.R;
 import com.geekofia.cacheaway.Utils.Clean;
@@ -22,7 +22,7 @@ public class AdvanceCleanActivity extends AppCompatActivity implements View.OnCl
             mDropboxCard, mTombstoneCard, mUsageStatsCard,
             mAnrCard, mLostDir, mThumbnailsCard;
 
-    private ImageView mClose, mInfo;
+    private ImageButton mClose, mInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -15,7 +15,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,7 +32,7 @@ import static com.geekofia.cacheaway.Utils.CleanCommands.*;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button mSimpleClean, mAdvanceClean;
-    private ImageView mSettings;
+    private ImageButton mSettings;
     private TextView mTextView;
     private String CACHE_ALL, mToastQuickClean, CHANNEL_ID = "CacheAway";
     private int notificationId = 1;

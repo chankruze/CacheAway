@@ -6,7 +6,7 @@
 
     <color name="textColor">#FFF</color>
     <color name="textColorHeading">#5E5F73</color>
-    <color name="primaryRipple">#ededed</color>
+    <color name="primaryRipple">#999999</color>
 
     <color name="colorBgActivity">#0B0C1B</color>
     <color name="cardBackgroundColor">#000</color>

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -20,7 +20,7 @@ import com.sdsmdg.tastytoast.TastyToast;
 
 public class BottomSheetDialog extends BottomSheetDialogFragment implements View.OnClickListener {
 
-    private ImageView mSocialWeb, mSocialGithub, mSocialMail, mSocialShare;
+    private ImageButton mSocialWeb, mSocialGithub, mSocialMail, mSocialShare;
     private TextView mAppVersionText;
 
     private String mAppVersion = BuildConfig.VERSION_NAME;
