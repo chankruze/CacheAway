@@ -25,7 +25,7 @@ public class Clean {
     private class CleaningTask extends AsyncTask<Void, Void, Void> {
 
         protected Void doInBackground(Void... param) {
-            final String command[] = {"su", "-c", mCommand + " | exit"};
+            final String command[] = {"su", "-c", "rm -rf " + mCommand + " | exit"};
 
             Shell shell = new Shell();
             mResult = shell.sendShellCommand(command);
